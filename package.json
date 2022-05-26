@@ -1,0 +1,47 @@
+{
+  "name": "pairing-candidate",
+  "version": "1.0.0",
+  "description": "Node.js API Pairing test",
+  "main": "src/server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.mjs",
+    "test": "tap ./**/*.test.mjs --no-browser --coverage-report=lcov --coverage-report=cobertura",
+    "lint": "eslint \"{src,test}/**/*.mjs\"",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franher/pairing-candidate.git"
+  },
+  "keywords": [
+    "test",
+    "pairing",
+    "interview",
+    "node.js",
+    "fastify",
+    "API"
+  ],
+  "author": "francisco.herrero@axa.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franher/pairing-candidate/issues"
+  },
+  "homepage": "https://github.com/franher/pairing-candidate#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.0",
+    "prettier": "^2.6.2",
+    "tap": "^16.2.0"
+  },
+  "dependencies": {
+    "fastify": "^3.29.0",
+    "got": "^12.0.4",
+    "pino-pretty": "^7.6.1"
+  }
+}

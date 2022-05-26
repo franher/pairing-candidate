@@ -1,0 +1,6 @@
+ts: false
+jsx: false
+flow: false
+reporter: base
+browser: false
+no-timeout: true
