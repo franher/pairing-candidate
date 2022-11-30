@@ -27,6 +27,7 @@ npm test
 ## Link of interests
 
 - [Fastify documentation](https://www.fastify.io/).
+- [Got](https://www.npmjs.com/package/got).
 - [PokéAPI](https://pokeapi.co/).
 - [Tap documentation](https://node-tap.org/docs/getting-started/).
 
