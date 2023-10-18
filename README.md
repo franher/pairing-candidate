@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Use Node.js 16x LTS version.
+- Use Node.js >=18x LTS version.
 
 ## Contributing
 
